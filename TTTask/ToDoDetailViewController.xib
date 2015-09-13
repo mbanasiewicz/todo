@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToDoDetailViewController" customModule="TTTask" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Wxe-id-rxQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ToDoDetailView" customModule="TTTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4r-kr-0HP">
+                    <rect key="frame" x="8" y="8" width="584" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="584" placeholderIntrinsicHeight="563.5" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xA9-WT-B9A">
+                    <rect key="frame" x="8" y="28" width="584" height="563.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="e4r-kr-0HP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="1ai-AT-VTf"/>
+                <constraint firstAttribute="trailing" secondItem="e4r-kr-0HP" secondAttribute="trailing" constant="8" id="9cj-hf-YxG"/>
+                <constraint firstItem="xA9-WT-B9A" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="D2W-KD-sEc"/>
+                <constraint firstAttribute="bottom" secondItem="xA9-WT-B9A" secondAttribute="bottom" constant="8" id="L1e-f7-UuF"/>
+                <constraint firstAttribute="trailing" secondItem="xA9-WT-B9A" secondAttribute="trailing" constant="8" id="LD3-zy-mVB"/>
+                <constraint firstItem="xA9-WT-B9A" firstAttribute="top" secondItem="e4r-kr-0HP" secondAttribute="bottom" id="Xn0-DQ-TM2"/>
+                <constraint firstItem="e4r-kr-0HP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="hEh-XR-Soc"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <connections>
+                <outlet property="toDoNoteLabel" destination="xA9-WT-B9A" id="Qge-U8-ZPR"/>
+                <outlet property="toDoTileLabel" destination="e4r-kr-0HP" id="X4h-Ns-aB9"/>
+            </connections>
+        </view>
+    </objects>
+</document>

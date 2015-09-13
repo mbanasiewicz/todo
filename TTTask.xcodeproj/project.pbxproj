@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340161671BA5C39400FAB950 /* ToDoEmptyViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340161661BA5C39400FAB950 /* ToDoEmptyViewTests.swift */; settings = {ASSET_TAGS = (); }; };
 		3460A2B11BA339F600D9C8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2B01BA339F600D9C8E1 /* AppDelegate.swift */; };
 		3460A2B41BA339F600D9C8E1 /* TTTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2B21BA339F600D9C8E1 /* TTTask.xcdatamodeld */; };
-		3460A2B61BA339F600D9C8E1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2B51BA339F600D9C8E1 /* MasterViewController.swift */; };
-		3460A2B81BA339F600D9C8E1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2B71BA339F600D9C8E1 /* DetailViewController.swift */; };
 		3460A2BB1BA339F600D9C8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3460A2B91BA339F600D9C8E1 /* Main.storyboard */; };
 		3460A2BD1BA339F600D9C8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3460A2BC1BA339F600D9C8E1 /* Assets.xcassets */; };
 		3460A2C01BA339F600D9C8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3460A2BE1BA339F600D9C8E1 /* LaunchScreen.storyboard */; };
-		3460A2CB1BA339F700D9C8E1 /* TTTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2CA1BA339F700D9C8E1 /* TTTaskTests.swift */; };
-		3460A2D61BA339F700D9C8E1 /* TTTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2D51BA339F700D9C8E1 /* TTTaskUITests.swift */; };
+		3460A2CB1BA339F700D9C8E1 /* TTCoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2CA1BA339F700D9C8E1 /* TTCoreDataStackTests.swift */; };
+		3460A2E41BA33A7600D9C8E1 /* TTCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2E31BA33A7600D9C8E1 /* TTCoreDataStack.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A2E81BA33B2D00D9C8E1 /* TTRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2E71BA33B2D00D9C8E1 /* TTRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A2EA1BA33C7100D9C8E1 /* TTDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2E91BA33C7100D9C8E1 /* TTDefines.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A2F11BA33F9D00D9C8E1 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2EF1BA33F9D00D9C8E1 /* Todo+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A2F21BA33F9D00D9C8E1 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2F01BA33F9D00D9C8E1 /* Todo.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A2F51BA349CD00D9C8E1 /* TTToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2F41BA349CD00D9C8E1 /* TTToDoTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A2F91BA34D7700D9C8E1 /* TTAddNewToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2F81BA34D7700D9C8E1 /* TTAddNewToDoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A2FC1BA3726B00D9C8E1 /* ToDoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A2FB1BA3726B00D9C8E1 /* ToDoDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A2FE1BA4ABB700D9C8E1 /* TTTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460A2FD1BA4ABB700D9C8E1 /* TTTextFieldCell.xib */; settings = {ASSET_TAGS = (); }; };
+		3460A3001BA4AC5B00D9C8E1 /* TTTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460A2FF1BA4AC5B00D9C8E1 /* TTTextViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		3460A3041BA4B70000D9C8E1 /* ToDoEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460A3031BA4B70000D9C8E1 /* ToDoEmptyView.xib */; settings = {ASSET_TAGS = (); }; };
+		3460A3061BA4B7AA00D9C8E1 /* ToDoEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A3051BA4B7AA00D9C8E1 /* ToDoEmptyView.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A3081BA568F100D9C8E1 /* TTSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A3071BA568F100D9C8E1 /* TTSearchResultsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A30A1BA57B1200D9C8E1 /* TTToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460A3091BA57B1200D9C8E1 /* TTToDoTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		3460A30D1BA5B38000D9C8E1 /* TTTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A30C1BA5B38000D9C8E1 /* TTTextViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A3101BA5B3AF00D9C8E1 /* TTTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A30F1BA5B3AF00D9C8E1 /* TTTextFieldCell.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A3191BA5B59A00D9C8E1 /* ToDoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3460A3181BA5B59A00D9C8E1 /* ToDoDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		3460A31B1BA5B62300D9C8E1 /* ToDoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A31A1BA5B62300D9C8E1 /* ToDoDetailView.swift */; settings = {ASSET_TAGS = (); }; };
+		3460A31D1BA5C0DE00D9C8E1 /* TTRootViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460A31C1BA5C0DE00D9C8E1 /* TTRootViewControllerTests.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,31 +43,43 @@
 			remoteGlobalIDString = 3460A2AC1BA339F600D9C8E1;
 			remoteInfo = TTTask;
 		};
-		3460A2D21BA339F700D9C8E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3460A2A51BA339F600D9C8E1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3460A2AC1BA339F600D9C8E1;
-			remoteInfo = TTTask;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		340161661BA5C39400FAB950 /* ToDoEmptyViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoEmptyViewTests.swift; sourceTree = "<group>"; };
 		3460A2AD1BA339F600D9C8E1 /* TTTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3460A2B01BA339F600D9C8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3460A2B31BA339F600D9C8E1 /* TTTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTTask.xcdatamodel; sourceTree = "<group>"; };
-		3460A2B51BA339F600D9C8E1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		3460A2B71BA339F600D9C8E1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3460A2BA1BA339F600D9C8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3460A2BC1BA339F600D9C8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3460A2BF1BA339F600D9C8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3460A2C11BA339F600D9C8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3460A2C61BA339F700D9C8E1 /* TTTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3460A2CA1BA339F700D9C8E1 /* TTTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTaskTests.swift; sourceTree = "<group>"; };
+		3460A2CA1BA339F700D9C8E1 /* TTCoreDataStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCoreDataStackTests.swift; sourceTree = "<group>"; };
 		3460A2CC1BA339F700D9C8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3460A2D11BA339F700D9C8E1 /* TTTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3460A2D51BA339F700D9C8E1 /* TTTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTaskUITests.swift; sourceTree = "<group>"; };
-		3460A2D71BA339F700D9C8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3460A2E31BA33A7600D9C8E1 /* TTCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTCoreDataStack.swift; sourceTree = "<group>"; };
+		3460A2E71BA33B2D00D9C8E1 /* TTRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTRootViewController.swift; sourceTree = "<group>"; };
+		3460A2E91BA33C7100D9C8E1 /* TTDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTDefines.swift; sourceTree = "<group>"; };
+		3460A2EF1BA33F9D00D9C8E1 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3460A2F01BA33F9D00D9C8E1 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		3460A2F31BA3401200D9C8E1 /* TTTask 1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TTTask 1.1.xcdatamodel"; sourceTree = "<group>"; };
+		3460A2F41BA349CD00D9C8E1 /* TTToDoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTToDoTableViewCell.swift; sourceTree = "<group>"; };
+		3460A2F61BA34C2900D9C8E1 /* TTTask 1.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TTTask 1.2.xcdatamodel"; sourceTree = "<group>"; };
+		3460A2F71BA34CEE00D9C8E1 /* TTTask 1.3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TTTask 1.3.xcdatamodel"; sourceTree = "<group>"; };
+		3460A2F81BA34D7700D9C8E1 /* TTAddNewToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTAddNewToDoViewController.swift; sourceTree = "<group>"; };
+		3460A2FA1BA34D9A00D9C8E1 /* TTTask 1.4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TTTask 1.4.xcdatamodel"; sourceTree = "<group>"; };
+		3460A2FB1BA3726B00D9C8E1 /* ToDoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoDetailViewController.swift; sourceTree = "<group>"; };
+		3460A2FD1BA4ABB700D9C8E1 /* TTTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTTextFieldCell.xib; sourceTree = "<group>"; };
+		3460A2FF1BA4AC5B00D9C8E1 /* TTTextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTTextViewCell.xib; sourceTree = "<group>"; };
+		3460A3031BA4B70000D9C8E1 /* ToDoEmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToDoEmptyView.xib; sourceTree = "<group>"; };
+		3460A3051BA4B7AA00D9C8E1 /* ToDoEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoEmptyView.swift; sourceTree = "<group>"; };
+		3460A3071BA568F100D9C8E1 /* TTSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSearchResultsViewController.swift; sourceTree = "<group>"; };
+		3460A3091BA57B1200D9C8E1 /* TTToDoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTToDoTableViewCell.xib; sourceTree = "<group>"; };
+		3460A30C1BA5B38000D9C8E1 /* TTTextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTTextViewCell.swift; sourceTree = "<group>"; };
+		3460A30F1BA5B3AF00D9C8E1 /* TTTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTTextFieldCell.swift; sourceTree = "<group>"; };
+		3460A3181BA5B59A00D9C8E1 /* ToDoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToDoDetailViewController.xib; sourceTree = "<group>"; };
+		3460A31A1BA5B62300D9C8E1 /* ToDoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoDetailView.swift; sourceTree = "<group>"; };
+		3460A31C1BA5C0DE00D9C8E1 /* TTRootViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTRootViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +97,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3460A2CE1BA339F700D9C8E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +105,6 @@
 			children = (
 				3460A2AF1BA339F600D9C8E1 /* TTTask */,
 				3460A2C91BA339F700D9C8E1 /* TTTaskTests */,
-				3460A2D41BA339F700D9C8E1 /* TTTaskUITests */,
 				3460A2AE1BA339F600D9C8E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +114,6 @@
 			children = (
 				3460A2AD1BA339F600D9C8E1 /* TTTask.app */,
 				3460A2C61BA339F700D9C8E1 /* TTTaskTests.xctest */,
-				3460A2D11BA339F700D9C8E1 /* TTTaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,13 +122,19 @@
 			isa = PBXGroup;
 			children = (
 				3460A2B01BA339F600D9C8E1 /* AppDelegate.swift */,
-				3460A2B51BA339F600D9C8E1 /* MasterViewController.swift */,
-				3460A2B71BA339F600D9C8E1 /* DetailViewController.swift */,
 				3460A2B91BA339F600D9C8E1 /* Main.storyboard */,
 				3460A2BC1BA339F600D9C8E1 /* Assets.xcassets */,
 				3460A2BE1BA339F600D9C8E1 /* LaunchScreen.storyboard */,
 				3460A2C11BA339F600D9C8E1 /* Info.plist */,
 				3460A2B21BA339F600D9C8E1 /* TTTask.xcdatamodeld */,
+				3460A3151BA5B49300D9C8E1 /* Core data */,
+				3460A3161BA5B52C00D9C8E1 /* Root view controller */,
+				3460A2E91BA33C7100D9C8E1 /* TTDefines.swift */,
+				3460A3121BA5B46100D9C8E1 /* ToDo table view cell */,
+				3460A3131BA5B47000D9C8E1 /* Add new todo view controller */,
+				3460A3171BA5B58700D9C8E1 /* Detail view controller */,
+				3460A30B1BA5B36E00D9C8E1 /* Empty view */,
+				3460A3141BA5B47E00D9C8E1 /* Search results view controller */,
 			);
 			path = TTTask;
 			sourceTree = "<group>";
@@ -116,19 +142,94 @@
 		3460A2C91BA339F700D9C8E1 /* TTTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				3460A2CA1BA339F700D9C8E1 /* TTTaskTests.swift */,
+				3460A2CA1BA339F700D9C8E1 /* TTCoreDataStackTests.swift */,
 				3460A2CC1BA339F700D9C8E1 /* Info.plist */,
+				3460A31C1BA5C0DE00D9C8E1 /* TTRootViewControllerTests.swift */,
+				340161661BA5C39400FAB950 /* ToDoEmptyViewTests.swift */,
 			);
 			path = TTTaskTests;
 			sourceTree = "<group>";
 		};
-		3460A2D41BA339F700D9C8E1 /* TTTaskUITests */ = {
+		3460A30B1BA5B36E00D9C8E1 /* Empty view */ = {
 			isa = PBXGroup;
 			children = (
-				3460A2D51BA339F700D9C8E1 /* TTTaskUITests.swift */,
-				3460A2D71BA339F700D9C8E1 /* Info.plist */,
+				3460A3031BA4B70000D9C8E1 /* ToDoEmptyView.xib */,
+				3460A3051BA4B7AA00D9C8E1 /* ToDoEmptyView.swift */,
 			);
-			path = TTTaskUITests;
+			name = "Empty view";
+			sourceTree = "<group>";
+		};
+		3460A30E1BA5B39D00D9C8E1 /* Text view cell */ = {
+			isa = PBXGroup;
+			children = (
+				3460A2FF1BA4AC5B00D9C8E1 /* TTTextViewCell.xib */,
+				3460A30C1BA5B38000D9C8E1 /* TTTextViewCell.swift */,
+			);
+			name = "Text view cell";
+			sourceTree = "<group>";
+		};
+		3460A3111BA5B3C900D9C8E1 /* Text field cell */ = {
+			isa = PBXGroup;
+			children = (
+				3460A2FD1BA4ABB700D9C8E1 /* TTTextFieldCell.xib */,
+				3460A30F1BA5B3AF00D9C8E1 /* TTTextFieldCell.swift */,
+			);
+			name = "Text field cell";
+			sourceTree = "<group>";
+		};
+		3460A3121BA5B46100D9C8E1 /* ToDo table view cell */ = {
+			isa = PBXGroup;
+			children = (
+				3460A2F41BA349CD00D9C8E1 /* TTToDoTableViewCell.swift */,
+				3460A3091BA57B1200D9C8E1 /* TTToDoTableViewCell.xib */,
+			);
+			name = "ToDo table view cell";
+			sourceTree = "<group>";
+		};
+		3460A3131BA5B47000D9C8E1 /* Add new todo view controller */ = {
+			isa = PBXGroup;
+			children = (
+				3460A2F81BA34D7700D9C8E1 /* TTAddNewToDoViewController.swift */,
+				3460A3111BA5B3C900D9C8E1 /* Text field cell */,
+				3460A30E1BA5B39D00D9C8E1 /* Text view cell */,
+			);
+			name = "Add new todo view controller";
+			sourceTree = "<group>";
+		};
+		3460A3141BA5B47E00D9C8E1 /* Search results view controller */ = {
+			isa = PBXGroup;
+			children = (
+				3460A3071BA568F100D9C8E1 /* TTSearchResultsViewController.swift */,
+			);
+			name = "Search results view controller";
+			sourceTree = "<group>";
+		};
+		3460A3151BA5B49300D9C8E1 /* Core data */ = {
+			isa = PBXGroup;
+			children = (
+				3460A2EF1BA33F9D00D9C8E1 /* Todo+CoreDataProperties.swift */,
+				3460A2F01BA33F9D00D9C8E1 /* Todo.swift */,
+				3460A2E31BA33A7600D9C8E1 /* TTCoreDataStack.swift */,
+			);
+			name = "Core data";
+			sourceTree = "<group>";
+		};
+		3460A3161BA5B52C00D9C8E1 /* Root view controller */ = {
+			isa = PBXGroup;
+			children = (
+				3460A2E71BA33B2D00D9C8E1 /* TTRootViewController.swift */,
+			);
+			name = "Root view controller";
+			sourceTree = "<group>";
+		};
+		3460A3171BA5B58700D9C8E1 /* Detail view controller */ = {
+			isa = PBXGroup;
+			children = (
+				3460A2FB1BA3726B00D9C8E1 /* ToDoDetailViewController.swift */,
+				3460A3181BA5B59A00D9C8E1 /* ToDoDetailViewController.xib */,
+				3460A31A1BA5B62300D9C8E1 /* ToDoDetailView.swift */,
+			);
+			name = "Detail view controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,24 +270,6 @@
 			productReference = 3460A2C61BA339F700D9C8E1 /* TTTaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3460A2D01BA339F700D9C8E1 /* TTTaskUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3460A2E01BA339F700D9C8E1 /* Build configuration list for PBXNativeTarget "TTTaskUITests" */;
-			buildPhases = (
-				3460A2CD1BA339F700D9C8E1 /* Sources */,
-				3460A2CE1BA339F700D9C8E1 /* Frameworks */,
-				3460A2CF1BA339F700D9C8E1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3460A2D31BA339F700D9C8E1 /* PBXTargetDependency */,
-			);
-			name = TTTaskUITests;
-			productName = TTTaskUITests;
-			productReference = 3460A2D11BA339F700D9C8E1 /* TTTaskUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +283,6 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					3460A2C51BA339F700D9C8E1 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 3460A2AC1BA339F600D9C8E1;
-					};
-					3460A2D01BA339F700D9C8E1 = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 3460A2AC1BA339F600D9C8E1;
 					};
@@ -224,7 +303,6 @@
 			targets = (
 				3460A2AC1BA339F600D9C8E1 /* TTTask */,
 				3460A2C51BA339F700D9C8E1 /* TTTaskTests */,
-				3460A2D01BA339F700D9C8E1 /* TTTaskUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +312,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3460A3041BA4B70000D9C8E1 /* ToDoEmptyView.xib in Resources */,
+				3460A30A1BA57B1200D9C8E1 /* TTToDoTableViewCell.xib in Resources */,
 				3460A2C01BA339F600D9C8E1 /* LaunchScreen.storyboard in Resources */,
+				3460A2FE1BA4ABB700D9C8E1 /* TTTextFieldCell.xib in Resources */,
 				3460A2BD1BA339F600D9C8E1 /* Assets.xcassets in Resources */,
+				3460A3191BA5B59A00D9C8E1 /* ToDoDetailViewController.xib in Resources */,
+				3460A3001BA4AC5B00D9C8E1 /* TTTextViewCell.xib in Resources */,
 				3460A2BB1BA339F600D9C8E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3460A2C41BA339F700D9C8E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3460A2CF1BA339F700D9C8E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,10 +337,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3460A2EA1BA33C7100D9C8E1 /* TTDefines.swift in Sources */,
+				3460A3081BA568F100D9C8E1 /* TTSearchResultsViewController.swift in Sources */,
 				3460A2B41BA339F600D9C8E1 /* TTTask.xcdatamodeld in Sources */,
+				3460A2F91BA34D7700D9C8E1 /* TTAddNewToDoViewController.swift in Sources */,
+				3460A2E81BA33B2D00D9C8E1 /* TTRootViewController.swift in Sources */,
 				3460A2B11BA339F600D9C8E1 /* AppDelegate.swift in Sources */,
-				3460A2B61BA339F600D9C8E1 /* MasterViewController.swift in Sources */,
-				3460A2B81BA339F600D9C8E1 /* DetailViewController.swift in Sources */,
+				3460A2FC1BA3726B00D9C8E1 /* ToDoDetailViewController.swift in Sources */,
+				3460A2F21BA33F9D00D9C8E1 /* Todo.swift in Sources */,
+				3460A3061BA4B7AA00D9C8E1 /* ToDoEmptyView.swift in Sources */,
+				3460A2F11BA33F9D00D9C8E1 /* Todo+CoreDataProperties.swift in Sources */,
+				3460A31B1BA5B62300D9C8E1 /* ToDoDetailView.swift in Sources */,
+				3460A2E41BA33A7600D9C8E1 /* TTCoreDataStack.swift in Sources */,
+				3460A3101BA5B3AF00D9C8E1 /* TTTextFieldCell.swift in Sources */,
+				3460A2F51BA349CD00D9C8E1 /* TTToDoTableViewCell.swift in Sources */,
+				3460A30D1BA5B38000D9C8E1 /* TTTextViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +359,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3460A2CB1BA339F700D9C8E1 /* TTTaskTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3460A2CD1BA339F700D9C8E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3460A2D61BA339F700D9C8E1 /* TTTaskUITests.swift in Sources */,
+				3460A31D1BA5C0DE00D9C8E1 /* TTRootViewControllerTests.swift in Sources */,
+				3460A2CB1BA339F700D9C8E1 /* TTCoreDataStackTests.swift in Sources */,
+				340161671BA5C39400FAB950 /* ToDoEmptyViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +372,6 @@
 			isa = PBXTargetDependency;
 			target = 3460A2AC1BA339F600D9C8E1 /* TTTask */;
 			targetProxy = 3460A2C71BA339F700D9C8E1 /* PBXContainerItemProxy */;
-		};
-		3460A2D31BA339F700D9C8E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3460A2AC1BA339F600D9C8E1 /* TTTask */;
-			targetProxy = 3460A2D21BA339F700D9C8E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -408,6 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejbanasiewicz.TTTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,6 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejbanasiewicz.TTTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -446,30 +524,6 @@
 			};
 			name = Release;
 		};
-		3460A2E11BA339F700D9C8E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TTTaskUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejbanasiewicz.TTTaskUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TTTask;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		3460A2E21BA339F700D9C8E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TTTaskUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pl.maciejbanasiewicz.TTTaskUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TTTask;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -489,6 +543,7 @@
 				3460A2DC1BA339F700D9C8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3460A2DD1BA339F700D9C8E1 /* Build configuration list for PBXNativeTarget "TTTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -497,14 +552,7 @@
 				3460A2DF1BA339F700D9C8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3460A2E01BA339F700D9C8E1 /* Build configuration list for PBXNativeTarget "TTTaskUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3460A2E11BA339F700D9C8E1 /* Debug */,
-				3460A2E21BA339F700D9C8E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -512,9 +560,13 @@
 		3460A2B21BA339F600D9C8E1 /* TTTask.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				3460A2FA1BA34D9A00D9C8E1 /* TTTask 1.4.xcdatamodel */,
+				3460A2F71BA34CEE00D9C8E1 /* TTTask 1.3.xcdatamodel */,
+				3460A2F61BA34C2900D9C8E1 /* TTTask 1.2.xcdatamodel */,
+				3460A2F31BA3401200D9C8E1 /* TTTask 1.1.xcdatamodel */,
 				3460A2B31BA339F600D9C8E1 /* TTTask.xcdatamodel */,
 			);
-			currentVersion = 3460A2B31BA339F600D9C8E1 /* TTTask.xcdatamodel */;
+			currentVersion = 3460A2FA1BA34D9A00D9C8E1 /* TTTask 1.4.xcdatamodel */;
 			path = TTTask.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
