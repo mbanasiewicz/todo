@@ -62,7 +62,7 @@ class TTRootViewController: UITableViewController, NSFetchedResultsControllerDel
     
     func createFetchedRequestsController() {
         let fetchRequest = NSFetchRequest(entityName: Todo.entityName())
-        let sortDescriptor = NSSortDescriptor(key: "order", ascending: true)
+        let sortDescriptor = NSSortDescriptor(key: "order", ascending: false)
         fetchRequest.sortDescriptors = [sortDescriptor]
         fetchRequest.fetchBatchSize = 50
         let moc = coreDataStack!.mainManagedObjectContext
@@ -154,8 +154,11 @@ class TTRootViewController: UITableViewController, NSFetchedResultsControllerDel
         let itemToMove = toDos![sourceIndexPath.row]
         toDos!.removeAtIndex(sourceIndexPath.row)
         toDos!.insert(itemToMove, atIndex: destinationIndexPath.row)
-        for (idx, item) in toDos!.enumerate().reverse() {
-            item.order = idx
+        
+        // We are sorting results in desc. fashion
+        let reversedIndices = [Int](0...toDos!.count).reverse()
+        for (toDo, idx) in zip(toDos!, reversedIndices) {
+            toDo.order = idx
         }
         coreDataStack?.saveContext()
         tableView.reloadData()
